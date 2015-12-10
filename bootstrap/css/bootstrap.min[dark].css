@@ -34,6 +34,12 @@ a.selected  {  background-color: #2020ff !important;
 #large     {  font-size:18px  !important;}
 
 .small     {  font-size:75% !important; }
+#logueo,
+#query{
+    background-color: black;
+    font-size: 25px;
+    color: white;
+}
 body
 {
     margin: 0;
@@ -138,11 +144,18 @@ button,input,optgroup,select,textarea
     color: inherit;
     font: inherit;
     margin: 0;
+    padding: 10px !important;
+    background-color: #000A9C !important;
+    border-color: white !important;
+    font-size: 25px !important;
+    overflow: visible;
 
 }
-button
-{
-
+.btn-success,.btn, button, #logueo{
+    padding: 10px !important;
+    background-color: #000A9C !important;
+    border-color: white !important;
+    font-size: 25px !important;
     overflow: visible;
 }
 input
@@ -155,15 +168,27 @@ button,select
 }
 button,html input[type="button"],input[type="reset"],input[type="submit"]
 {
+    padding: 10px !important;
+    background-color: #000A9C !important;
+    border-color: white !important;
+    font-size: 25px !important;
     cursor: pointer;
     webkit-appearance: button;
 }
 button[disabled],html input[disabled]
 {
+    padding: 10px !important;
+    background-color: #000A9C !important;
+    border-color: white !important;
+    font-size: 25px !important;
     cursor: default;
 }
 button::-moz-focus-inner,input::-moz-focus-inner
 {
+    padding: 10px !important;
+    background-color: #000A9C !important;
+    border-color: white !important;
+    font-size: 25px !important;
     border: 0;
     padding: 0;
 }
