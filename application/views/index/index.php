@@ -22,9 +22,10 @@
                 <!-- fin panel principal -->
 
                 <!-- panel derecho -->
-               
+
                 <!-- fin panel derecho -->
             </div>
+           
         </div>
         <!-- area descripciones -->
         <?php include("application/views/index/include/descripciones.html"); ?>
