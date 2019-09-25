@@ -1,0 +1,11 @@
+pipeline{
+    agent any
+    stages{
+        stage("Build"){
+            steps{
+               git clone https://github.com/Kavir91/ExamenCode.git
+            }
+        }
+        
+    }
+}
