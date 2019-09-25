@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("Build"){
             steps{
-               git clone https://github.com/Kavir91/ExamenCode.git 
+              robocopy C:\Users\softtek\Desktop C:\Users\softtek\Documents SofttekDevops.zip
                
             }
         }
