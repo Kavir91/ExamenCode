@@ -3,9 +3,7 @@ pipeline{
     stages{
         stage("Build"){
             steps{
-              cd C:\Users\softtek\Desktop
-              robocopy C:\Users\softtek\Desktop C:\Users\softtek\Documents SofttekDevops_%date:~-4,4%%date:~-7,2%%date:~-10,2%.zip
-              cd C:\Users\softtek\Documents
+              echo "Hola"
             }
         }
         
